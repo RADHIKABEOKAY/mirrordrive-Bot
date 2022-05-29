@@ -42,7 +42,7 @@ class MirrorStatus:
     STATUS_SPLITTING = " 💞 Splitting...✂️ "
 
 
-PROGRESS_MAX_SIZE = 1090 // 80
+PROGRESS_MAX_SIZE = 10 // 8
 PROGRESS_INCOMPLETE = ['👑','🎯','🌻', '💍', '👻', '🥀', '💐', '🌹', '💎']
 
 SIZE_UNITS = ['B', 'KB', 'MB', 'GB', 'TB', 'PB']
