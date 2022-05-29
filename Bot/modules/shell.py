@@ -23,7 +23,7 @@ def shell(update, context):
         reply += f"*=> Root update Info..!*\n️=>️\n️\n`{stdout}`\n️️\n"
         LOGGER.info(f"Shell - {cmd} - {stdout}")
     if stderr:
-        reply += f"*=> U Idiot.. Don't Dot It again..!*\n️=>️\n️\n`{stderr}`\n"
+        reply += f"*=> U Idiot.. Don't Do it again..!*\n️=>️\n️\n`{stderr}`\n"
         LOGGER.error(f"Shell - {cmd} - {stderr}")
     if len(reply) > 3000:
         with open('️Terminal_output.xml', 'w') as file:
